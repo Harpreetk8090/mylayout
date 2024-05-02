@@ -1,0 +1,626 @@
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+
+    width: 82%;
+    margin: 0 auto;
+
+
+}
+
+.in-container {
+    /* margin-top: 3rem; */
+}
+
+.attention-message {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+.header-image-logo {
+    cursor: pointer;
+    width: 8 rem
+}
+
+#header {
+    padding: 0.5rem 0;
+}
+
+.mycon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section {
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.hero-section-bg {
+    background-image: url(./../assets/images/hero-bg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* top: 10;
+    left: 0; */
+    position: absolute;
+
+}
+
+.main-subheading {
+    display: inline-block;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    position: relative;
+    margin-top: 3rem;
+    /* top: 50px; */
+    color: white;
+    border: 2px solid #D043B1;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.main-heading {
+    position: relative;
+    color: white;
+    /* top: 50px; */
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    font-size: 2.8rem;
+}
+
+.hero-content {
+    margin-top: 1 rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+.hero-video-wrapper {
+    width: 58%;
+    max-width: 828px;
+    margin-right: 1 rem;
+}
+
+.video {
+
+
+
+    position: relative;
+
+
+}
+
+.hero-form-part {
+    max-width: 460px;
+    padding-top: 2rem;
+    width: 37%;
+    /* margin-bottom: 2rem; */
+}
+
+.form-wrapper {
+    background-color: #fafafa;
+    position: relative;
+    border-radius: 8px;
+    height: 100%;
+
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: light;
+    font-size: medium;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #D043B1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+input[type=submit]:hover {
+    background-color: #D043DD;
+}
+
+.registration-heading {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.disclaimer {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: lighter;
+}
+
+.why-us-section {
+    padding: 4rem 0 4rem 0;
+
+}
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-part {
+    width: 49%;
+    max-width: 704px;
+}
+
+.img-container {
+    background-image: url(./../assets/images/about-img.png);
+    width: 100%;
+    height: 279px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+
+}
+.avex-img{
+    width: 300px; 
+    height: 82px;
+}
+
+.overlay-image {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%);  */
+}
+
+.overlay-image img {
+    display: block;
+    width: 200px;
+    /* Adjust the size of the overlay image as needed */
+    height: auto;
+}
+
+.text-part {
+    width: 49%;
+    max-width: 704px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.card {
+    text-align: center;
+
+}
+
+.why-us-card {
+    width: 33%;
+    /* max-width: 140px; */
+}
+
+.section-heading {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+.section-text {
+    padding-bottom: 1.8rem;
+    line-height: 1.5rem;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+
+
+.advantages-section {
+    background-color: #8b006d;
+
+    padding: 3rem 0;
+}
+
+.advantage-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.advantage-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.insection-subhead {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.advantages-card {
+    width: 24%;
+    max-width: 336px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 1.2rem 0.7rem;
+    text-align: center;
+    box-shadow: 0px 0px 70px 20px rgba(0, 0, 0, 0.15);
+}
+
+.para-text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.2rem;
+}
+
+.steps-section {
+    /* margin-top: 7rem 0; */
+    background-color: #FAFAFA;
+}
+
+.sectionthree-heading {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1.5rem 0;
+}
+
+.steps-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.steps-card {
+    background-color: #8b006d;
+    width: 31%;
+    max-width: 460px;
+    border-radius: 9px;
+    text-align: center;
+    padding: 1.5rem 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.steps-subhead {
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.steps-para {
+    color: white;
+    font-size: 24px;
+    padding-top: 0.6rem;
+}
+
+.section-bottom-head {
+    font-size: 30px;
+    text-align: center;
+    word-spacing: 7px;
+    font-weight: 350;
+    padding-bottom: 1.5rem;
+}
+
+.about-section {
+    margin-top: 2rem;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgs-part {
+    width: 49%;
+    max-width: 704px;
+    padding: 3rem 0;
+
+}
+
+.about-img {
+    width: 100%;
+}
+
+.texts-part {
+    width: 49%;
+}
+
+.aboutsub-heading {
+    font-size: xx-large;
+    padding: 1.7rem 0;
+    /* text-align: right; */
+}
+
+.about-section ul li {
+    background: url(./../assets/images/purple-checkmark.svg);
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-bottom: 1.8rem;
+}
+
+.about-list-head {
+    font-size: x-large;
+    padding-left: 3rem;
+    font-weight: 500;
+}
+
+.texts-part p {
+    font-size: 18px;
+    padding-left: 3rem;
+    padding-top: 0.8rem;
+    font-weight: 350;
+}
+
+.opinion-section {
+    background-color: #8b006d;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.opinion-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.opinion-card {
+    width: 41%;
+    max-width: 590px;
+}
+
+.opinion-card-image {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.opinion-card h4 {
+    color: white;
+    font-size: 25px;
+    padding: 1.7rem 0;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.opinion-card p {
+    color: white;
+    font-size: large;
+
+    font-weight: 300;
+    font-style: italic;
+}
+
+@media screen and (max-width: 998px) {
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-video-wrapper {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-form-part {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+
+    .img-part {
+        width: 100%;
+    }
+
+    .text-part {
+        width: 100%;
+    }
+
+    .overlay-img {
+        width: 80%;
+        /* Adjust width for responsiveness */
+        max-width: 200px;
+        /* Set maximum width */
+        left: 50%;
+        /* Center horizontally */
+        transform: translateX(-50%);
+        /* Center horizontally */
+    }
+
+    .section-heading {
+        margin-top: 1.3rem;
+    }
+
+    .advantage-card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+
+    .advantages-card {
+        width: 48%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .steps-card {
+        width: 31%;
+        background-color: #8b006d;
+        border-radius: 5px;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .imgs-part {
+        width: 50%;
+        padding: 2rem 0;
+
+    }
+
+    .texts-part {
+        width: 100%;
+    }
+
+    .about-img {
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .opinion-card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .opinion-card {
+        width: 100%;
+        max-width: 780px;
+        padding-bottom: 2rem;
+    }
+
+    .opinion-card-image {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .steps-card-wrapper {
+        /* display: flex;
+        flex-wrap: wrap; */
+        justify-content: center;
+    }
+
+    .steps-card {
+        width: 100%;
+    }
+
+    .sectionthree-heading {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .section-bottom-head {
+        font-size: 25px;
+        text-align: center;
+        word-spacing: 5px;
+    }
+
+    .steps-subhead {
+        font-size: 24px;
+    }
+
+    .steps-para {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:586px) {
+    .advantages-card {
+        width: 100%;
+    }
+
+    .advantage-heading {
+        font-size: 28px;
+    }
+
+    .main-heading {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .main-subheading {
+        font-size: 1.4rem;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .registration-heading {
+        font-size: 1.7rem;
+    }
+
+    .header-image-logo {
+        cursor: pointer;
+        height: 2.3rem;
+    }
+    .img-container{
+        height:203px;
+        background-size: cover;
+    }
+    .avex-img{
+        width: 200px; 
+        height: 82px;
+    }
+    .why-us-icon{
+        width:4rem
+    }
+    .why-us-card h4{
+        font-weight: lighter;
+    }
+   .imgs-part{
+    width: 100%;
+   }
+}
